@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+.parent {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.2945553221288515) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 40%;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,0.7679446778711485) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+}
+
+.timer {
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+.hour,
+.min,
+.sec {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(63, 21, 40);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action button {
+    width: 70px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(34,193,195);
+    margin: 2px;
+    transition: all .5s;
+}
+
+.action button:hover {
+    box-shadow: 2px 3px 3px rgba(27, 26, 26, 0.5);
+    cursor: pointer;
+}
+
+#start {
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,0.7679446778711485) 100%);
+}
+
+#stop,
+#reset {
+    width: 100px;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+
+#stop {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,0.7679446778711485) 100%);
+}
+
+#reset {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,0.7679446778711485) 100%);
+}
+
+@media(max-width: 800px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media(max-width: 630px) {
+    .main {
+        width: 70%;
+    }
+}
+
+@media(max-width: 505px) {
+    .main {
+        width: 90%;
+    }
+}
