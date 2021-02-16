@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useState } from "react";
 
-
 class App extends React.Component{
     constructor(props, timer) {
         super(props);
